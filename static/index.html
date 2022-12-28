@@ -3,9 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
   <title>Highland Park Pattaya</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -29,17 +27,38 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: BizLand - v3.9.1
-  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- img responsive -->
   <style>
     .responsive {
       width: 100%;
       height: auto;
+    }
+  </style>
+  <!-- ekkamai font -->
+  <style>
+    @font-face {
+      font-family: ekkamai-thin;
+      src: url(./highland/font/ekkamai/EkkamaiNew-Thin.ttf);
+    }
+
+    @font-face {
+      font-family: ekkamai-reg;
+      src: url(./highland/font/ekkamai/EkkamaiNew-Regular.ttf);
+    }
+
+    @font-face {
+      font-family: ekkamai-bold;
+      src: url(./highland/font/ekkamai/EkkamaiNew-Bold.ttf);
+    }
+
+    select:invalid {
+      color: #757575;
+      font-family: ekkamai-reg;
+    }
+
+    option,
+    select {
+      font-family: ekkamai-reg;
     }
   </style>
 </head>
@@ -61,7 +80,8 @@
   </section>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;">
+  <header id="header" class="d-flex align-items-center"
+    style="box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;">
     <div class="container d-flex align-items-center justify-content-between">
 
       <h1 class="logo"><a href="index.html"><img src="highland/logo/TCN.jpg"></a></h1>
@@ -70,12 +90,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Register</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Concept</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Gallery</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -91,8 +111,7 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -101,99 +120,99 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="testimonials" class="testimonials">
-    <div class="container" data-aos="zoom-in">
+  <section id="home" class="align-items-center">
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
 
-      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100"  style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="highland/1/Gate-01.jpg" class="responsive">
-            </div>
-          </div><!-- End testimonial item -->
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100"
+          style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="highland/1/Gate-01.jpg" class="responsive">
+              </div>
+            </div><!-- End testimonial item -->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="highland/1/Pool V1-01.jpg" class="responsive">
-            </div>
-          </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="highland/1/Pool V1-01.jpg" class="responsive">
+              </div>
+            </div><!-- End testimonial item -->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="highland/1/Cassia-01.jpg" class="responsive">
-            </div>
-          </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="highland/1/Cassia-01.jpg" class="responsive">
+              </div>
+            </div><!-- End testimonial item -->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="highland/1/Clubhouse-01.jpg" class="responsive">
-            </div>
-          </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="highland/1/Clubhouse-01.jpg" class="responsive">
+              </div>
+            </div><!-- End testimonial item -->
 
-          <div class="swiper-slide">
-            <div class="testimonial-item">
-              <img src="highland/1/Rosewood-01-01.jpg" class="responsive">
-            </div>
-          </div><!-- End testimonial item -->
-
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="highland/1/Rosewood-01-01.jpg" class="responsive">
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
         </div>
       </div>
-
-    </div>
-  </section><!-- End Testimonials Section -->
-
-  <section id="hero" class="d-flex align-items-center">
+    </section><!-- End Testimonials Section -->
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <h1>Welcome to <span>HIGHLAND PARK</span></h1>
-      <h2>LUXURY RESORT STYLE POOL VILLA IN PATTAYA </h2>
-      <div class="d-flex">
-        <a href="#about" class="btn-get-started scrollto">Contact us</a>
-        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i
-            class="bi bi-play-circle"></i><span>Watch Video</span></a>
-      </div>
-
+      <h1>Highland Park Pool Villas <span>- Modern Resort Luxury</span></h1>
+      <h5 style="font-family: ekkamai-reg;">โครงการใหม่ล่าสุด ยกระดับการอยู่อาศัยให้บรรยากาศสไตล์รีสอร์ทในบ้านของคุณ
+        และล้อมรอบด้วยธรรมชาติกับทิวเขา</h5>
+      <h5 style="font-family: ekkamai-reg;">พร้อมกับพื้นที่ส่วนกลางกว่า 3ไร่ ทำเลดีเมืองใหม่ EEC ในอนาคต
+        ใกล้ทางด่วนมอเตอร์เวย์ใหม่</h5>
     </div>
   </section>
   <!-- End Hero -->
-  <hr width="1300" style="margin: auto;">
+  <!-- <hr width="1300" style="margin: auto;"> -->
   <main id="main">
     <!-- ======= Contact Section ======= -->
     <section id="about" class="contact">
-
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Register</h2>
           <h3><span>Register</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
-            autem.</p>
+          <p style="font-family: ekkamai-reg;">ลงทะเบียนเพื่อรับข้อมูลเพิ่มเติมและส่วนลด 200,000 บ.</p>
         </div>
-
         <div class="row" data-aos="fade-up" data-aos-delay="100">
-
           <div class="col-lg-6 ">
             <img src="highland/promotion/promotion.jpg" class="responsive">
           </div>
-
           <div class="col-lg-6">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                    style="font-family: ekkamai-reg;" required>
                 </div>
                 <div class="col form-group">
-                  <input type="text" class="form-control" name="name" id="name" placeholder="Your Surname" required>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Your Surname"
+                    style="font-family: ekkamai-reg;" required>
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Phone" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Phone"
+                  style="font-family: ekkamai-reg;" required>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="E-mail" required>
-              </div>  
-              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="E-mail"
+                  style="font-family: ekkamai-reg;" required>
+              </div>
+              <!-- <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Budget" required>
-              </div>  
+              </div> -->
+              <div class="form-group">
+                <select name="budget" id="budget" class="form-control" required>
+                  <option value="" disabled selected hidden>Budget</option>
+                  <option value="8.6 - 12 ลบ.">8.6 - 12 ลบ.</option>
+                  <option value="13.5 - 20 ลบ.">13.5 - 20 ลบ.</option>
+                </select>
+              </div>
               <!-- <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div> -->
@@ -205,9 +224,7 @@
               <div class="text-center"><button type="submit">Send Register</button></div>
             </form>
           </div>
-
         </div>
-
       </div>
     </section><!-- End Contact Section -->
     <!-- <section id="about" class="contact">
@@ -292,11 +309,15 @@
         <div class="section-title">
           <h2>Concept</h2>
           <h3>Project <span>Infomation</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
-            autem.</p>
         </div>
 
-        <div class="row">
+        <div>
+          <div data-aos="fade-right" data-aos-delay="100">
+            <img src="./highland/project-info/info-01.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <!-- <div class="row">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
@@ -331,13 +352,258 @@
               culpa qui officia deserunt mollit anim id est laborum
             </p>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </section><!-- End About Section -->
 
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <h3>Center <span>Place</span></h3>
+          <p style="font-family: ekkamai-reg;">ส่วนกลางครบครัน ให้ท่านได้ใช้งานเต็มที่</p>
+          <p style="font-family: ekkamai-reg;">คลับเฮ้าส์ - ฟิตเนส - ห้องเด็กเล่น - ล็อบบี้ - สระว่ายน้ำใหญ่ - สระเด็ก -
+            พื้นที่สวน - ศาลานั่งเล่น - สนามเด็กเล่น - จอคกิ้งแทรค</p>
+        </div>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./highland/gallery/center/Bridge-01-01.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <a href="./highland/gallery/center/Bridge-01-01.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./highland/gallery/center/Clubhouse-01-01.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+
+              <a href="./highland/gallery/center/Clubhouse-01-01.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./highland/gallery/center/Fitness-01-01.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+
+              <a href="./highland/gallery/center/Fitness-01-01.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./highland/gallery/center/Gate-01-01.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+
+              <a href="./highland/gallery/center/Gate-01-01.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./highland/gallery/center/multi purpose room-01-01.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+
+              <a href="./highland/gallery/center/multi purpose room-01-01.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./highland/gallery/center/Playground-01-01.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+
+              <a href="./highland/gallery/center/Playground-01-01.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./highland/gallery/center/Pool V1-01-01.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+
+              <a href="./highland/gallery/center/Pool V1-01-01.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./highland/gallery/center/Pool V2-01-01.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+
+              <a href="./highland/gallery/center/Pool V2-01-01.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="./highland/gallery/center/Pool V3-01-01.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+
+              <a href="./highland/gallery/center/Pool V3-01-01.jpg" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col portfolio-item filter-app">
+              <img src="./highland/gallery/center/Bridge-01-01.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a href="./highland/gallery/center/Bridge-01-01.jpg" data-gallery="portfolioGallery1"
+                  class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+            <div>
+              <div class="portfolio-info">
+                <a href="./highland/gallery/center/Fitness-01-01.jpg" data-gallery="portfolioGallery1"
+                  class="portfolio-lightbox preview-link"></a>
+              </div>
+            </div>
+            <div>
+              <div class="portfolio-info">
+                <a href="./highland/gallery/center/Fitness-01-01.jpg" data-gallery="portfolioGallery1"
+                  class="portfolio-lightbox preview-link"></a>
+              </div>
+            </div>
+            <div>
+              <div class="portfolio-info">
+                <a href="./highland/gallery/center/Fitness-01-01.jpg" data-gallery="portfolioGallery1"
+                  class="portfolio-lightbox preview-link"></a>
+              </div>
+            </div>
+          </div>
+          <div class=" col portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col portfolio-item filter-app">
+              <img src="./highland/gallery/center/Bridge-01-01.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a href="./highland/gallery/center/Bridge-01-01.jpg" data-gallery="portfolioGallery2"
+                  class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+              </div>
+            </div>
+            <div>
+              <div class="portfolio-info">
+                <a href="./highland/gallery/center/Clubhouse-01-01.jpg" data-gallery="portfolioGallery2"
+                  class="portfolio-lightbox preview-link"></a>
+              </div>
+            </div>
+            <div>
+              <div class="portfolio-info">
+                <a href="./highland/gallery/center/Fitness-01-01.jpg" data-gallery="portfolioGallery2"
+                  class="portfolio-lightbox preview-link"></a>
+              </div>
+            </div>
+            <div>
+              <div class="portfolio-info">
+                <a href="./highland/gallery/center/Gate-01-01.jpg" data-gallery="portfolioGallery2"
+                  class="portfolio-lightbox preview-link"></a>
+              </div>
+            </div>
+            <div>
+              <div class="portfolio-info">
+                <a href="./highland/gallery/center/Fitness-01-01.jpg" data-gallery="portfolioGallery2"
+                  class="portfolio-lightbox preview-link"></a>
+              </div>
+            </div>
+            <div>
+              <div class="portfolio-info">
+                <a href="./highland/gallery/center/Fitness-01-01.jpg" data-gallery="portfolioGallery2"
+                  class="portfolio-lightbox preview-link"></a>
+              </div>
+            </div>
+            <div>
+              <div class="portfolio-info">
+                <a href="./highland/gallery/center/Fitness-01-01.jpg" data-gallery="portfolioGallery2"
+                  class="portfolio-lightbox preview-link"></a>
+              </div>
+            </div>
+            <div>
+              <div class="portfolio-info">
+                <a href="./highland/gallery/center/Fitness-01-01.jpg" data-gallery="portfolioGallery2"
+                  class="portfolio-lightbox preview-link"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="row">
+          <div class="col-6" data-aos="zoom-in">
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100"
+              style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; width: auto; height: auto;">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="highland/1/Gate-01.jpg" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="highland/1/Pool V1-01.jpg" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="highland/1/Cassia-01.jpg" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="highland/1/Clubhouse-01.jpg" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="highland/1/Rosewood-01-01.jpg" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6" data-aos="zoom-in">
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100"
+              style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  width: auto; height: auto;">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="highland/1/Gate-01.jpg" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="highland/1/Pool V1-01.jpg" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="highland/1/Cassia-01.jpg" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="highland/1/Clubhouse-01.jpg" class="img-fluid">
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="highland/1/Rosewood-01-01.jpg" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section><!-- End Portfolio Section -->
     <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills">
+    <!-- <section id="skills" class="skills">
       <div class="container" data-aos="fade-up">
 
         <div class="row skills-content">
@@ -401,10 +667,10 @@
         </div>
 
       </div>
-    </section><!-- End Skills Section -->
+    </section>  End Skills Section -->
 
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
+    <!-- <section id="counts" class="counts">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
@@ -448,10 +714,11 @@
         </div>
 
       </div>
-    </section><!-- End Counts Section -->
+    </section> -->
+    <!-- End Counts Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
+    <!-- <section id="clients" class="clients section-bg">
       <div class="container" data-aos="zoom-in">
 
         <div class="row">
@@ -483,10 +750,11 @@
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section> -->
+    <!-- End Clients Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <!-- <section id="services" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -550,141 +818,17 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section> -->
+    <!-- End Services Section -->
 
     <!-- ======= Testimonials Section ======= -->
 
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <h3>Check our <span>Portfolio</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
-            autem.</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
+    <!-- <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -771,10 +915,11 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section> -->
+    <!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <!-- <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -858,10 +1003,11 @@
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section> -->
+    <!-- End Pricing Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
+    <!-- <section id="faq" class="faq section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -959,24 +1105,70 @@
         </div>
 
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section> -->
+    <!-- End Frequently Asked Questions Section -->
 
   </main><!-- End #main -->
-
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <footer id="footer" class="contact">
+    <div class="container" data-aos="fade-up">
 
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
+      <div class="section-title">
+        <h2>Register</h2>
+        <h3><span>Register</span></h3>
+        <p style="font-family: ekkamai-reg;">ลงทะเบียนเพื่อรับข้อมูลเพิ่มเติมและส่วนลด 200,000 บ.</p>
+      </div>
+
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="col-lg-6 ">
+          <img src="highland/promotion/promotion.jpg" class="responsive">
         </div>
+
+        <div class="col-lg-6">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form"
+            style="background-color: white;">
+            <div class="row">
+              <div class="col form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                  style="font-family: ekkamai-reg;" required>
+              </div>
+              <div class="col form-group">
+                <input type="text" class="form-control" name="name" id="name" placeholder="Your Surname"
+                  style="font-family: ekkamai-reg;" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Phone"
+                style="font-family: ekkamai-reg;" required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="E-mail"
+                style="font-family: ekkamai-reg;" required>
+            </div>
+            <!-- <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Budget" required>
+              </div> -->
+            <div class="form-group">
+              <select name="budget" id="budget" class="form-control" required>
+                <option value="" disabled selected hidden>Budget</option>
+                <option value="8.6 - 12 ลบ.">8.6 - 12 ลบ.</option>
+                <option value="13.5 - 20 ลบ.">13.5 - 20 ลบ.</option>
+              </select>
+            </div>
+
+            <!-- <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div> -->
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your register has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Register</button></div>
+          </form>
+        </div>
+
       </div>
     </div>
 
